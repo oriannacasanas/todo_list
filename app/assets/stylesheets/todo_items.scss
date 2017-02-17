@@ -1,0 +1,43 @@
+// Place all the styles related to the todo_items controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+.body {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 5em;
+}
+
+.sloth {
+  height: 30em;
+  padding-left: 0;
+  // padding-top: 20em;
+}
+.task-dashboard {
+  background-color: #EFEFEF;
+  font-family: 'Slabo 27px', serif;
+  font-size: 14px;
+  border-radius: 50px;
+  height: 40em;
+  width: 35em;
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  padding-left: 6em;
+
+}
+
+#title {
+  padding: 15px;
+  color: #984B43;
+  // color: #FC4A1A;
+  font-weight: bolder;
+  font-family: 'Slabo 27px', serif;
+  font-size: 4em;
+  text-align: center;
+  padding-right: 2em;
+}
